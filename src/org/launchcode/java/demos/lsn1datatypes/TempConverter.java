@@ -1,3 +1,4 @@
+//Teresa Tull worked on this on 9-11-2022 ch 2
 package org.launchcode.java.demos.lsn1datatypes;
 
 import java.util.Scanner;

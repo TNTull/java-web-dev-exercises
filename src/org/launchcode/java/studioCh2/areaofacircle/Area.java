@@ -1,5 +1,5 @@
 //Teresa Tull worked on this on 9-11-2022 ch 2 studio
-package org.launchcode.java.studios.areaofacircle;
+package org.launchcode.java.studioCh2.areaofacircle;
 
 import java.util.Scanner;
 

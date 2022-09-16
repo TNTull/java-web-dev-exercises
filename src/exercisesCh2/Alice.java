@@ -1,5 +1,5 @@
 //Teresa Tull worked on this on 9-11-2022 ch 2.4
-package exercises;
+package exercisesCh2;
 import java.util.Scanner;
 
 public class Alice {

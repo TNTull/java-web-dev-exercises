@@ -1,3 +1,5 @@
+//Teresa Tull worked on this on 9-15-2022 ch 3 studio
+
 package org.launchcode.java.studioCh3;
 
 import java.util.Map;

@@ -1,4 +1,4 @@
-//Teresa Tull worked on this on 9-11-2022 ch 2.4
+//Teresa Tull worked on this on 9-11-2022 ch 2.4 Exercises
 package exercisesCh2;
 import java.util.Scanner;
 

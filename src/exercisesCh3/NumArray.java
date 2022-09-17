@@ -1,3 +1,5 @@
+//Teresa Tull created on this on 9-14-2022 ch 3.7 Exercises
+
 package exercisesCh3;
 
 public class NumArray {

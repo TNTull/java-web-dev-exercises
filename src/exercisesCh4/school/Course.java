@@ -27,7 +27,7 @@ public class Course {
     }
 
     public String getCourseTopic() {
-        return courseTopic;
+        return topic;
     }
 
     public void setTopic(String topic) {

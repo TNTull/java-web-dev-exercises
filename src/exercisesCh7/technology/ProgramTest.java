@@ -17,7 +17,7 @@ public class ProgramTest {
 
     @Test
     public void testAddInternalStorageComputer() {
-        test_computer.internalStorage(1000);
+        test_computer.addinternalStorage(1000);
         assertEquals(2000,2000,.001);
     }
 
@@ -29,8 +29,9 @@ public class ProgramTest {
 
     @Test
     public void testAssignIDComputer() {
-        test_computer.assignID();
-        assertEquals(1,1,.001);
+        Computer test_computer2 = new Computer(true, 1000, 16);
+        test_computer.getId();
+        assertNotEquals(test_computer, test_computer2);
     }
 
     Laptop test_laptop;
@@ -51,11 +52,17 @@ public class ProgramTest {
         assertEquals(32,32,.001);
     }
 
+    @Test
+    public void testAssignIDLaptop() {
+        Laptop test_laptop2 = new Laptop(true, 1000, 16, 5.3);
+        test_laptop.getId();
+        assertNotEquals(test_laptop, test_laptop2);
+    }
+
     SmartPhone test_smartPhone;
     @Before
     public void createSmartPhoneObject() {
-        test_smartPhone = new SmartPhone(true, 64, 16,
-                20);
+        test_smartPhone = new SmartPhone(true, 64, 16, 20);
     }
 
     @Test
@@ -72,8 +79,16 @@ public class ProgramTest {
 
     @Test
     public void testAddInternalStorageSmartPhone() {
-        test_smartPhone.internalStorage(64);
+        test_smartPhone.addinternalStorage(64);
         assertEquals(128,128,.001);
     }
+
+    @Test
+    public void testAssignIDSmartPhone() {
+        SmartPhone test_smartPhone2 = new SmartPhone(true, 64, 16, 20);
+        test_smartPhone.getId();
+        assertNotEquals(test_smartPhone, test_smartPhone2);
+    }
+
 
 }

@@ -2,8 +2,8 @@ package exercisesCh7.technology;
 
 public class Computer extends AbstractEntity {
     protected boolean hasKeyboard;
-    private int internalStorage; //in gigabytes
-    private int ram; //in gigabytes
+    protected int internalStorage; //in gigabytes
+    protected int ram; //in gigabytes
 
     public Computer(boolean hasKeyboard, int internalStorage, int ram) {
         super();
@@ -16,8 +16,18 @@ public class Computer extends AbstractEntity {
         this.ram = this.ram + num;
     }
 
-    public void internalStorage(int storage) {
+    public void addinternalStorage(int storage) {
         this.internalStorage = this.internalStorage
                 + storage;
+    }
+
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "hasKeyboard=" + hasKeyboard +
+                ", internalStorage=" + internalStorage +
+                ", ram=" + ram +
+                ", id=" + id +
+                '}';
     }
 }
